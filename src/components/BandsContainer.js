@@ -6,6 +6,11 @@ import { connect } from 'react-redux'
 import Band from './Band'
 
 class BandsContainer extends Component {
+
+  renderBands = () => this.props.bands.map((band, id) => <Bnad key={id} text={band} />)
+   
+
+  
   render() {
     return (
       <div>
