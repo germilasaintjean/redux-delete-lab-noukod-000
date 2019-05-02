@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 
 class Band extends Component {
-
-  render() {
     return(
       <div>
-        Band Component
+        <span>{props.text}</span><button>DELETE</button>
       </div>
     );
   }
-};
+
 
 export default Band;
