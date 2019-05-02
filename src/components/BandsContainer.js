@@ -25,11 +25,11 @@ const mapStateToProps = state => {
     bands: state.bands
   }
 }
- 
+
 const mapDispatchToProps = dispatch => {
   return {
     delete: bandText => dispatch({type: 'DELETE_BAND', payload: bandText })
   }
 }
- 
+
 export default connect(mapStateToProps, mapDispatchToProps)(BandsContainer);
