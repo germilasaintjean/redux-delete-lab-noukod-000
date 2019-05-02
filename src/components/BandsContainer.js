@@ -3,6 +3,8 @@ import BandInput from './BandInput';
 
 import { connect } from 'react-redux'
 
+import Band from './Band'
+
 class BandsContainer extends Component {
   render() {
     return (
