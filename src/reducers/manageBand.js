@@ -6,7 +6,7 @@ export default function manageBand(state = {
 
     const band = {
            id: Math.random()*10000000000000000,
-           text: action.payload.name
+           text: action.payload.text
          }
          return { bands: state.bands.concat(band) };
 
